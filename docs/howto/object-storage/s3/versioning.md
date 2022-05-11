@@ -10,7 +10,7 @@ To enable versioning in a bucket, use one of the following commands:
 
 === "aws"
     ```bash
-    aws --endpoint-url=s3-<region>.{{extra.brand_domain}}:8080 \
+    aws --endpoint-url=https://s3-<region>.{{extra.brand_domain}}:8080 \
       s3api put-bucket-versioning \ 
       --versioning-configuration Status=Enabled \ 
       --bucket <bucket-name>
