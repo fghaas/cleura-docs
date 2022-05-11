@@ -15,7 +15,10 @@ extra:
   gui_domain: "cleura.cloud"
 extra_css:
   - assets/stylesheets/cleura-palette.css
-markdown_extensions: []
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 plugins:
   - awesome-pages
   - git-authors:
