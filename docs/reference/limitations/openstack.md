@@ -69,8 +69,9 @@ To expose a service via IPv4 *and* IPv6, you must set up two separate load balan
 
 ## Designate
 
-The [OpenStack Designate](https://docs.openstack.org/designate/) DNS-as-a-service (DNSaaS) facility is currently not available in {{brand}}.
-You must manage your own DNS records for public IP addresses.
+### PTR Records
+
+The [OpenStack Designate](../../howto/openstack/designate/index.md) DNS-as-a-service (DNSaaS) facility in {{brand}} currently does not support managing [PTR records](https://en.wikipedia.org/wiki/PTR_record).
 
 ## Manila
 
