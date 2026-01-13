@@ -75,5 +75,5 @@ The [OpenStack Designate](../../howto/openstack/designate/index.md) DNS-as-a-ser
 
 ## Manila
 
-The [OpenStack Manila](https://docs.openstack.org/designate/) filesystem-as-a-service (FSaaS) facility is currently not available in {{brand}}.
+The [OpenStack Manila](https://docs.openstack.org/manila/) filesystem-as-a-service (FSaaS) facility is currently not available in {{brand}}.
 If you require multiple servers to be able to access the same files, [create a server](../../howto/openstack/nova/new-server.md) that exposes an internal NFS or CIFS service, backed by a Cinder volume.
