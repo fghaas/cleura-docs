@@ -54,6 +54,41 @@ For example, write:
 This is supported in {{brand}}.
 ```
 
+## Admonitions
+
+We use only three types of [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/):
+Note, Warning, and Danger.
+
+??? note
+
+    Notes are additional bits of information that do not belong in the main text of a page.
+    As such, we always make them collapsible:
+
+    ```markdown
+    ??? note
+        This is a collapsible note.
+    ```
+
+!!! warning
+
+    Warnings highlight potentially unintended side effects of otherwise supported functionality.
+    We always render them extended:
+
+    ```markdown
+    !!! warning
+        This is a warning.
+    ```
+
+!!! danger
+
+    Danger admonitions highlight dangerous actions, such as ones that might cause data loss.
+    As with warnings, we always render them extended:
+
+    ```markdown
+    !!! danger
+        This is a danger admonition.
+    ```
+
 ## Renamed sources
 
 If you rename an existing Markdown source, the path of the rendered page's [URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) will change.
