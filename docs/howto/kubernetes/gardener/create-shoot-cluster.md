@@ -94,6 +94,8 @@ In the example below, we only allow access from one Class C network, expressed i
 You can define more networks from which cluster access is allowed.
 Please keep in mind that, besides new shoot clusters, you can add or remove "allow networks" to or from existing clusters.
 
+When populating the list of allowed networks, include the {{ gui_management_service }} source IP address (`{{gui_management_service_ip}}/32`) to preserve [monitoring](#viewing-details-and-monitoring) functionality.
+
 ![You can define more than one networks, from which access to the cluster is allowed](assets/create-shoot-09.04.png)
 
 When you are ready, click the green *Create* button at the bottom of the pane.
