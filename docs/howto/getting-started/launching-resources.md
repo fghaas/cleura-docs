@@ -2,7 +2,7 @@
 description: An action-list on launching your first resources in Cleura Cloud
 ---
 
-# Launching your first resources
+# Deploying your first resources
 
 {{brand}} is built around the [OpenStack](https://www.openstack.org/) Infrastructure-as-a-Service (IaaS) platform.
 
