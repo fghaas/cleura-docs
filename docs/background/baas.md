@@ -1,8 +1,5 @@
 # Backup as a Service in Cleura Cloud
 
-!!! warning "Service availability"
-    Backup as a Service will become available on 2026-10-12 (in the {{api_region}} region only).
-
 **Backup as a Service (BaaS)** is a mechanism for backing up cloud block storage.
 BaaS allows {{brand}} users to create, manage, schedule, and restore volume backups using the OpenStack CLI or the {{gui}}.
 
